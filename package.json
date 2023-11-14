@@ -1,0 +1,22 @@
+{
+  "name": "begin-node",
+  "version": "1.0.0",
+  "description": "prac",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production && nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Avi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongoose": "^5.13.16",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1"
+  }
+}
